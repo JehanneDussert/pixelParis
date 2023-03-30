@@ -1,15 +1,6 @@
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
-export const Tab = styled.h3 `
-    border: 1px solid white;
-    border-radius: 5px;
-    text-align: center;
-    margin: 0vw 5vw 0vw 5vw;
-    padding: 1vw 3vw 1vw 3vw;
-    margin-top: 40vh;
-`
-
 export const LinkPage = styled.a `
     text-decoration: none;
     color: inherit;
@@ -25,11 +16,20 @@ export const BoxContainer = styled.div  `
 
 export const NavBar = styled.div  `
     display: flex;
+    position: sticky;
     flex-direction: column;
     // border: 1px solid white;
     color: #EFEFEF;
     font-size: 4vh;
     font-family: Copperplate Gothic;
+    top: 3vh;
+`
+
+export const Separator = styled.div `
+    border-top: 1px solid #EFEFEF;
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
 `
 
 export const DivContainer = styled.div `

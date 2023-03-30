@@ -16,6 +16,17 @@
     margin-top: 40vh;
 }
 
+.title {
+  text-align: center;
+  padding-top: 20vh;
+}
+
+.description {
+  padding: 10vh 0vw 5vh 0vw;
+  width: 30vw;
+  text-align: center;
+}
+
 .btn:hover {
   background-color: rgba(255, 255, 255, 0.02);
 }
