@@ -7,6 +7,11 @@
   pointer-events: none;
 }
 
+.profile {
+  padding-left: 5vw;
+  padding-top: 5vh;
+}
+
 .btn{
   border: 1px solid white;
     border-radius: 5px;
@@ -18,7 +23,11 @@
 
 .title {
   text-align: center;
-  padding-top: 20vh;
+  padding: 20vh 10vw 0vh 10vw;
+}
+
+.subtitle {
+  text-align: center;
 }
 
 .description {
