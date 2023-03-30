@@ -1,12 +1,5 @@
 import React from 'react';
-import styled from 'styled-components'
-import { DivContainer, DivPage } from '../../styles/Atom'
-import Header from "../../components/Header"
-
-const LinkPage = styled.a `
-    text-decoration: none;
-    color: inherit;
-`
+import { DivContainer, DivPage, LinkPage } from '../../styles/Atom'
 
 function Home() {
     return (
