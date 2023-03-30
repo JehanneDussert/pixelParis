@@ -28,7 +28,7 @@ const MonTrait = styled.div `
 function About() {
     return (
         <DivPage>
-            <DivContainer id="projet">
+            <DivContainer id="about">
             <BoxContainer>
                 <MyDiv>
                     <Title>Le projet</Title>

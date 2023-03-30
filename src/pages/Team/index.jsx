@@ -6,7 +6,7 @@ function Team() {
     return (
         <DivPage>
             {/* <Header/> */}
-            <DivContainer>
+            <DivContainer id="team">
                 <BoxContainer>Nobila</BoxContainer>
                 <BoxContainer>Jehanne</BoxContainer>
             </DivContainer>

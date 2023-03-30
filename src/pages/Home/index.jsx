@@ -8,6 +8,7 @@ const LinkPage = styled.a `
     text-decoration: none;
     color: inherit;
 `
+
 // var video = document.getElementById("background-video");
 
 function Home() {
@@ -20,12 +21,12 @@ function Home() {
   
             <Header/>
             <DivContainer>
-                <Tab>
-                    <LinkPage href="/about">Le projet</LinkPage>
-                </Tab>
-                <Tab>
-                    <LinkPage href="/team">L'équipe</LinkPage>
-                </Tab>
+                <h3 class="btn">
+                    <LinkPage href="#about">Le projet</LinkPage>
+                </h3>
+                <h3 class="btn">
+                    <LinkPage href="#team">L'équipe</LinkPage>
+                </h3>
             </DivContainer>
         </DivPage>
     )
