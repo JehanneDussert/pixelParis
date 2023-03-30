@@ -24,7 +24,7 @@ export const NavBar = styled.div  `
 
 export const Separator = styled.div `
     border-top: 1px solid #EFEFEF;
-    width: 30vw;
+    width: 20vw;
     margin-left: auto;
     margin-right: auto;
 `
