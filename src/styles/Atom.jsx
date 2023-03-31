@@ -15,11 +15,35 @@ export const BoxContainer = styled.div  `
 export const NavBar = styled.div  `
     display: flex;
     position: sticky;
-    flex-direction: column;
+    flex-direction: row;
     color: #EFEFEF;
     font-size: 4vh;
     font-family: Copperplate Gothic;
     top: 3vh;
+`
+
+export const Contact = styled.a  `
+    display: flex;
+    position: sticky;
+    top: 3vh;
+    display: block;
+    margin-left: auto;
+    margin-right: 2vw;
+`
+
+export const Logo = styled.img  `
+    width: 2vw;
+`
+
+export const FooterBar = styled.div  `
+    display: flex;
+    position: sticky;
+    flex-direction: column;
+    color: #EFEFEF;
+    font-size: 4vh;
+    font-family: Copperplate Gothic;
+    bottom: 1vh;
+    text-align: center;
 `
 
 export const Separator = styled.div `

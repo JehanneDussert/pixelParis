@@ -13,10 +13,13 @@ function About() {
             <Separator/>
             <DivContainer>
                 <BoxContainer>
-                    <h1 class="description">Innover</h1>
+                    <h2 class="description">Simuler</h2>
                 </BoxContainer>
                 <BoxContainer>
-                    <h1 class="description"> Modéliser</h1>
+                    <h2 class="description">Visualiser</h2>
+                </BoxContainer>
+                <BoxContainer>
+                    <h2 class="description">Créer</h2>
                 </BoxContainer>
             </DivContainer>
         </DivPage>

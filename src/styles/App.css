@@ -13,7 +13,7 @@
 }
 
 .btn{
-  border: 1px solid white;
+    border: 1px solid white;
     border-radius: 5px;
     text-align: center;
     margin: 0vw 5vw 0vw 5vw;
@@ -37,7 +37,7 @@
 }
 
 .btn:hover {
-  background-color: rgba(255, 255, 255, 0.02);
+  background-color: rgb(3, 3, 3, 0.2);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -95,3 +95,8 @@ html {
     transform: rotate(360deg);
   }
 }
+
+/* #home {
+  background: url("../assets/Unreal.mp4");
+  background-size: cover;
+} */

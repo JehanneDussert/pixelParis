@@ -15,9 +15,7 @@ function App() {
       <Home/>
       <About/>
       <Team/>
-      {/* <Footer/> */}
     </BoxContainer>
-    // </div>
   );
 }
 
