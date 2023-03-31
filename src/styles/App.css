@@ -23,11 +23,12 @@
 
 .title {
   text-align: center;
-  padding: 20vh 10vw 0vh 10vw;
+  padding: 30vh 10vw 0vh 10vw;
 }
 
 .subtitle {
   text-align: center;
+  padding-bottom: 8vh;
 }
 
 .description {
@@ -70,6 +71,7 @@ html {
   top: 0;
   bottom: 0;
   z-index: -1;
+  filter: brightness(40%);
 }
 
 .App-header {
@@ -96,7 +98,6 @@ html {
   }
 }
 
-/* #home {
-  background: url("../assets/Unreal.mp4");
-  background-size: cover;
-} */
+#team, #about {
+  background-color: rgb(2, 6, 10);
+}

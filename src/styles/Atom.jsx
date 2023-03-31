@@ -5,11 +5,18 @@ export const LinkPage = styled.a `
     color: inherit;
 `
 
+export const HomeLink = styled.a `
+    text-decoration: none;
+    color: inherit;
+    margin-left: 2vw;
+`
+
 export const BoxContainer = styled.div  `
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 2vw;
+    // padding: 2vw;
+    // border: 1px solid #EFEFEF;
 `
 
 export const NavBar = styled.div  `
@@ -18,7 +25,7 @@ export const NavBar = styled.div  `
     flex-direction: row;
     color: #EFEFEF;
     font-size: 4vh;
-    font-family: Copperplate Gothic;
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
     top: 3vh;
 `
 
@@ -35,17 +42,6 @@ export const Logo = styled.img  `
     width: 2vw;
 `
 
-export const FooterBar = styled.div  `
-    display: flex;
-    position: sticky;
-    flex-direction: column;
-    color: #EFEFEF;
-    font-size: 4vh;
-    font-family: Copperplate Gothic;
-    bottom: 1vh;
-    text-align: center;
-`
-
 export const Separator = styled.div `
     border-top: 1px solid #EFEFEF;
     width: 20vw;
@@ -57,12 +53,15 @@ export const DivContainer = styled.div `
     display: flex;
     flex-direction: row;
     color: #EFEFEF;
-    font-family: Optima, Goudy Old Style;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     justify-content: center;
+    // border: 1px solid #EFEFEF;
 `
 
 export const DivPage = styled.div `
     min-height: 100vh;
+    min-width: 100vw;
     display: flex;
     flex-direction: column;
+    // border: 1px solid #EFEFEF;
 `

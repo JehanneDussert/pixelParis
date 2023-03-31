@@ -3,22 +3,22 @@ import { DivContainer, BoxContainer, DivPage, Separator } from "../../styles/Ato
 
 function About() {
     return (
-        <DivPage>
-            <DivContainer id="about">
-                <BoxContainer class="description">
+        <DivPage id="about">
+            <DivContainer>
+                <BoxContainer id="about">
                         <h1 class="title">Le projet</h1>
-                        <p> Permettre la visualisation d'événements en re-créant des scènes animées sur Unreal Engine 5.</p>
+                        <p class="subtitle"> Permettre la visualisation d'événements en re-créant des scènes animées sur Unreal Engine 5.</p>
                 </BoxContainer>
             </DivContainer>
             <Separator/>
             <DivContainer>
-                <BoxContainer>
+                <BoxContainer id="about">
                     <h2 class="description">Simuler</h2>
                 </BoxContainer>
-                <BoxContainer>
+                <BoxContainer id="about">
                     <h2 class="description">Visualiser</h2>
                 </BoxContainer>
-                <BoxContainer>
+                <BoxContainer id="about">
                     <h2 class="description">Créer</h2>
                 </BoxContainer>
             </DivContainer>
