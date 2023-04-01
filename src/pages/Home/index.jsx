@@ -4,9 +4,7 @@ import { DivContainer, DivPage, LinkPage } from '../../styles/Atom'
 function Home() {
     return (
         <DivPage id="home">
-            <video id="background-video" autoplay muted loop>
-                <source src="/Videos/Unreal.mp4" type="video/mp4" autoPlay="true"/>
-            </video>
+            <video id="background-video" autoPlay muted loop src="/Videos/démo.mp4" type="video/mp4"/>
             <DivContainer>
                 <h3 class="btn">
                     <LinkPage href="#about">Le projet</LinkPage>
