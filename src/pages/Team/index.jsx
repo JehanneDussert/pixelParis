@@ -7,14 +7,18 @@ function Team() {
         <DivPage id="team">
             <DivContainer>
                 <BoxContainer>
-                    <h2 class="title">Nobila Traore</h2>
-                    <img class="profile" src={Image} width="300vw" alt="Nobila"/>
+                <h2 class="title">
+                    Nobila Traore
+                    <div class="profile" alt="Nobila"/>
                     <p class="subtitle"> Développeur C++ | Unreal Engine 5</p>
+                </h2>
                 </BoxContainer>
                 <BoxContainer>
-                    <h2 class="title">Jehanne Dussert</h2>
-                    <img class="profile" src={Image} width="300vw" alt="Jehanne"/>
+                <h2 class="title">
+                    Jehanne Dussert
+                    <div class="profile" alt="Nobila"/>
                     <p class="subtitle"> Développeuse C++ | Unreal Engine 5</p>
+                </h2>
                 </BoxContainer>
             </DivContainer>
         </DivPage>

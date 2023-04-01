@@ -8,8 +8,16 @@
 }
 
 .profile {
-  padding-left: 5vw;
-  padding-top: 5vh;
+  background-image: url("../assets/building.jpg");
+  min-width: 100%;
+  min-height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid white; */
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .btn{
@@ -24,17 +32,22 @@
 .title {
   text-align: center;
   padding: 30vh 10vw 0vh 10vw;
+  /* border: 1px solid white; */
+  font-size: 3vw;
 }
 
 .subtitle {
   text-align: center;
   padding-bottom: 8vh;
+  font-size: 1vw;
+  /* border: 1px solid white; */
 }
 
 .description {
   padding: 10vh 0vw 5vh 0vw;
   width: 30vw;
   text-align: center;
+  font-size: 2vw;
 }
 
 .btn:hover {
