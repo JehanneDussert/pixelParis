@@ -53,7 +53,7 @@ export const DivContainer = styled.div `
     display: flex;
     flex-direction: row;
     color: #EFEFEF;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
     justify-content: center;
     // border: 1px solid #EFEFEF;
 `

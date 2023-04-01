@@ -99,5 +99,10 @@ html {
 }
 
 #team, #about {
+  /* filter: brightness(80%);
+  background-image: url("../assets/background.jpg");
+  width: 100%; */
+  /* background-size: contain;
+  background-repeat: no-repeat; */
   background-color: rgb(2, 6, 10);
 }

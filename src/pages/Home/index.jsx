@@ -3,7 +3,7 @@ import { DivContainer, DivPage, LinkPage } from '../../styles/Atom'
 
 function Home() {
     return (
-        <DivPage>
+        <DivPage id="home">
             <video id="background-video" autoplay muted loop>
                 <source src="/Videos/Unreal.mp4" type="video/mp4" autoPlay="true"/>
             </video>
