@@ -68,5 +68,6 @@ export const DivPage = styled.div `
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
     // border: 1px solid #EFEFEF;
 `

@@ -8,7 +8,21 @@
 }
 
 .profile {
-  background-image: url("../assets/building.jpg");
+  /* background-image: url("../assets/building.jpg"); */
+  /* min-width: 100%;
+  min-height: 100%; */
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid white; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  align-items: center;
+}
+
+.Jehanne {
+  /* background-image: url("../assets/Jehanne.jpg"); */
   min-width: 100%;
   min-height: 100%;
   display: flex;
@@ -38,12 +52,18 @@
     text-align: center;
     margin: 0vw 5vw 0vw 5vw;
     padding: 1vw 3vw 1vw 3vw;
-    margin-top: 40vh;
+    /* margin-top: 40vh; */
+    justify-content: center;
+    align-items: center;
 }
 
 .title {
   text-align: center;
-  padding: 30vh 10vw 0vh 10vw;
+  display: flex;
+  flex-direction: column;
+  padding: 0vw 10vh 0vw 10vh;
+  justify-content: center;
+  align-items: center;
   /* border: 1px solid white; */
   font-size: 3vw;
 }
@@ -56,7 +76,7 @@
 }
 
 .description {
-  padding: 10vh 0vw 5vh 0vw;
+  /* padding: 10vh 0vw 5vh 0vw; */
   width: 30vw;
   text-align: center;
   font-size: 2vw;
