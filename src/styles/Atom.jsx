@@ -25,7 +25,7 @@ export const NavBar = styled.div  `
     position: sticky;
     flex-direction: row;
     color: #EFEFEF;
-    font-size: 4vh;
+    font-size: 2vw;
     font-family: Copperplate, Copperplate Gothic Light, fantasy;
     top: 3vh;
 `
@@ -38,7 +38,7 @@ export const Contact = styled.a  `
     margin-right: 2vw;
     text-decoration: none;
     color: inherit;
-    font-size: 3vh;
+    font-size: 2vw;
 `
 
 export const Logo = styled.img  `

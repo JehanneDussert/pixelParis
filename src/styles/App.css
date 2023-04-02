@@ -27,10 +27,10 @@
 }
 
 @media screen and (max-width: 768px) {
-    .wrapper {
-      width: 50%; /* Lorsque la largeur de la fenêtre est inférieure à 768 pixels, chaque élément prendra 100% de la largeur */
-    }
+  .wrapper {
+    width: 50%;
   }
+}
 
 .btn{
     border: 1px solid white;
