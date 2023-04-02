@@ -34,9 +34,11 @@ export const Contact = styled.a  `
     display: flex;
     position: sticky;
     top: 3vh;
-    display: block;
     margin-left: auto;
     margin-right: 2vw;
+    text-decoration: none;
+    color: inherit;
+    font-size: 3vh;
 `
 
 export const Logo = styled.img  `

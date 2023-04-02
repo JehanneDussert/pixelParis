@@ -6,7 +6,7 @@ function Header() {
   return ( 
     <NavBar>
       <HomeLink href="#home">Pixel Paris</HomeLink>
-      <Contact href="mailto:jehanne-dussert@hotmail.fr"><Logo src={Image}/></Contact>
+      <Contact href="mailto:jehanne-dussert@hotmail.fr">Contact</Contact>
     </NavBar>
   );
 }
