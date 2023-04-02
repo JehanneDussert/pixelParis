@@ -11,13 +11,11 @@
   background-image: url("../assets/building.jpg");
   min-width: 100%;
   min-height: 100%;
-  text-align: center;
   display: flex;
-  justify-content: center;
-  align-items: center;
   /* border: 1px solid white; */
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .btn{

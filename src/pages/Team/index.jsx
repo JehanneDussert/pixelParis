@@ -9,15 +9,15 @@ function Team() {
                 <BoxContainer>
                 <h2 class="title">
                     Nobila Traore
-                    <div class="profile" alt="Nobila"/>
                     <p class="subtitle"> Développeur C++ | Unreal Engine 5</p>
+                    <div class="profile" alt="Nobila"/>
                 </h2>
                 </BoxContainer>
                 <BoxContainer>
                 <h2 class="title">
                     Jehanne Dussert
-                    <div class="profile" alt="Nobila"/>
                     <p class="subtitle"> Développeuse C++ | Unreal Engine 5</p>
+                    <div class="profile" alt="Nobila"/>
                 </h2>
                 </BoxContainer>
             </DivContainer>
