@@ -12,11 +12,25 @@
   min-width: 100%;
   min-height: 100%;
   display: flex;
+  flex-wrap: wrap;
   /* border: 1px solid white; */
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.wrapper {
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+      width: 50%; /* Lorsque la largeur de la fenêtre est inférieure à 768 pixels, chaque élément prendra 100% de la largeur */
+    }
+  }
 
 .btn{
     border: 1px solid white;
@@ -36,7 +50,7 @@
 
 .subtitle {
   text-align: center;
-  padding-bottom: 8vh;
+  padding-bottom: 4vh;
   font-size: 1vw;
   /* border: 1px solid white; */
 }

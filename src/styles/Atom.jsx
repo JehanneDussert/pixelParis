@@ -13,6 +13,7 @@ export const HomeLink = styled.a `
 
 export const BoxContainer = styled.div  `
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     // padding: 2vw;
@@ -51,7 +52,9 @@ export const Separator = styled.div `
 
 export const DivContainer = styled.div `
     display: flex;
+    // flex-wrap: wrap;
     flex-direction: row;
+    width: 90%;
     color: #EFEFEF;
     font-family: Copperplate, Copperplate Gothic Light, fantasy;
     justify-content: center;
@@ -62,6 +65,7 @@ export const DivPage = styled.div `
     min-height: 100vh;
     min-width: 100vw;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     // border: 1px solid #EFEFEF;
 `

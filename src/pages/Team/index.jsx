@@ -5,7 +5,7 @@ import Image from "../../assets/building.jpg"
 function Team() {
     return (
         <DivPage id="team">
-            <DivContainer>
+            <DivContainer class="wrapper">
                 <BoxContainer>
                 <h2 class="title">
                     Nobila Traore
