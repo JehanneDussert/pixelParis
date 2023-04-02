@@ -8,7 +8,7 @@ export const LinkPage = styled.a `
 export const HomeLink = styled.a `
     text-decoration: none;
     color: inherit;
-    margin-left: 2vw;
+    margin-left: 4vw;
 `
 
 export const BoxContainer = styled.div  `
@@ -16,7 +16,6 @@ export const BoxContainer = styled.div  `
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    // padding: 2vw;
     // border: 1px solid #EFEFEF;
 `
 
@@ -25,7 +24,7 @@ export const NavBar = styled.div  `
     position: sticky;
     flex-direction: row;
     color: #EFEFEF;
-    font-size: 2vw;
+    font-size: 3vw;
     font-family: Copperplate, Copperplate Gothic Light, fantasy;
     top: 3vh;
 `
@@ -33,9 +32,8 @@ export const NavBar = styled.div  `
 export const Contact = styled.a  `
     display: flex;
     position: sticky;
-    top: 3vh;
     margin-left: auto;
-    margin-right: 2vw;
+    margin-right: 4vw;
     text-decoration: none;
     color: inherit;
     font-size: 2vw;
