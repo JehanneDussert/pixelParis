@@ -54,7 +54,8 @@ export const DivContainer = styled.div `
     display: flex;
     // flex-wrap: wrap;
     flex-direction: row;
-    width: 90%;
+    width: 100%;
+    height: 100%;
     color: #EFEFEF;
     font-family: Copperplate, Copperplate Gothic Light, fantasy;
     justify-content: center;
