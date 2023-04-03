@@ -7,7 +7,7 @@ function About() {
             <DivContainer>
                 <BoxContainer>
                         <h1 class="title">Le projet</h1>
-                        <p class="subtitle"> Découvrez PixelParis, est un programme 3D sur developpé sur Unreal Engine 5 permettant une visualisation de la ville de Paris entière et de simuler des evènements tel que la cérémonie d'ouverture des Jeux Olympiques de Paris 2024.</p>
+                        <p class="subtitle"> Découvrez Pixel Paris, un programme 3D développé sur Unreal Engine 5 permettant une visualisation de la ville de Paris et la simulation d'événements tels que la cérémonie d'ouverture des Jeux Olympiques de Paris 2024.</p>
                         <p class="subtitle">Plongez dans l'univers de la ville lumière comme jamais auparavant.</p>
                 </BoxContainer>
             </DivContainer>
