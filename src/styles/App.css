@@ -48,12 +48,6 @@
   align-items: center;
 }
 
-@media screen and (max-width: 768px) {
-  .wrapper {
-    width: 50%;
-  }
-}
-
 .btn{
     border: 1px solid white;
     border-radius: 5px;
@@ -158,6 +152,30 @@ html {
   background-color: var(--bg-color);
 }
 
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    font-size: 2.5vw;
+    top: 1vh;
+  }
+
+  .homeLink {
+    margin-left: 0;
+    margin-top: 2vh;
+  }
+
+  .contact {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 2vh;
+  }
+
+  .btn {
+    margin: 0 auto;
+    padding: 0.5vh 2vw;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .title {
   font-size: 2em;
@@ -169,5 +187,31 @@ html {
   .description {
     width: 80%;
     font-size: 1.5em;
+  }
+
+  .wrapper {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navbar {
+    font-size: 2vw;
+    top: 0;
+  }
+
+  .homeLink {
+    font-size: 1.5vw;
+    margin-top: 1vh;
+  }
+
+  .contact {
+    font-size: 1.2vw;
+    margin-top: 1vh;
+  }
+
+  .btn {
+    margin: 0 auto;
+    padding: 0.5vh 1vw;
   }
 }
