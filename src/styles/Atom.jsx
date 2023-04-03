@@ -14,6 +14,7 @@ export const HomeLink = styled.a `
 export const BoxContainer = styled.div  `
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
 `
 
