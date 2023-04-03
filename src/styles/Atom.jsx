@@ -9,6 +9,7 @@ export const HomeLink = styled.a `
     text-decoration: none;
     color: white;
     margin-left: 4vw;
+    cursor: pointer;
 `
 
 export const BoxContainer = styled.div  `
@@ -16,6 +17,14 @@ export const BoxContainer = styled.div  `
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+`
+
+export const Photo = styled.img`
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    align-self: center;
+    margin: 15px;
 `
 
 export const Logo = styled.img  `
@@ -37,6 +46,8 @@ export const DivContainer = styled.div `
     width: 100%;
     height: 100%;
     color: #EFEFEF;
+    display: flex;
+    flex-direction: row;
     font-family: Copperplate, Copperplate Gothic Light, fantasy;
     justify-content: center;
 `
@@ -48,4 +59,24 @@ export const DivPage = styled.div `
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+`
+
+export const HomeButton = styled.a`
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition-duration: 1s;
+    &:hover {
+        background-color: #99999922;
+        transition-duration: 1s;
+    }
+
+    border-radius: 5px;
+    text-align: center;
+    margin: 0vw 5vw;
+    padding: 1vw 3vw;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 `

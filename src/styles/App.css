@@ -40,6 +40,7 @@
     padding: 1vw 3vw 1vw 3vw;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .title {
@@ -57,7 +58,8 @@
   padding-bottom: 4vh;
   font-size: 1vw;
   margin: 0vh 12vw 0vh 12vw;
-  text-align: justify;
+  /* text-align: justify; */
+
 }
 
 .description {
@@ -111,6 +113,8 @@ html {
   text-decoration: none;
   color: white;
   font-size: 2vw;
+  /* border-radius: 5px; */
+  /* border: 1px solid white; */
 }
 
 .navbar {
@@ -133,7 +137,7 @@ html {
   top: 0;
   bottom: 0;
   z-index: -1;
-  filter: brightness(40%);
+  filter: brightness(90%);
 }
 
 .App-header {
