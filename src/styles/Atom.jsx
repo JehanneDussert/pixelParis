@@ -17,6 +17,10 @@ export const BoxContainer = styled.div  `
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+        @media screen and (max-width: 768px) {
+            padding: 10px;
+    }
+
 `
 
 export const Photo = styled.img`
@@ -50,6 +54,9 @@ export const DivContainer = styled.div `
     flex-direction: row;
     font-family: Copperplate, Copperplate Gothic Light, fantasy;
     justify-content: center;
+    @media screen and (max-width: 768px) {
+    }
+    
 `
 
 export const DivPage = styled.div `
