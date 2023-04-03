@@ -104,12 +104,11 @@ html {
 }
 
 .contact {
-  display: flex;
-  position: sticky;
+  text-decoration: none;
+  color: white;
   margin-left: auto;
   margin-right: 4vw;
   text-decoration: none;
-  color: white;
   font-size: 2vw;
 }
 
@@ -166,18 +165,18 @@ html {
 
 @media screen and (max-width: 768px) {
   .navbar {
-    flex-direction: column;
     font-size: 2.5vw;
     top: 1vh;
   }
 
   .homeLink {
-    margin-left: 0;
+    margin-left: 2vw;
     margin-top: 2vh;
   }
 
   .contact {
-    margin-right: 0;
+    margin-right: 2vw;
+    margin-top: 2vh;
   }
 
   .btn {
@@ -233,6 +232,16 @@ html {
   .wrapper {
     width: 50%;
   }
+
+  .homeLink {
+    margin-left: 2vw;
+    margin-top: 2vh;
+  }
+
+  .contact {
+    margin-right: 2vw;
+    margin-top: 2vh;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -244,11 +253,13 @@ html {
   .homeLink {
     font-size: 1.5vw;
     margin-top: 1vh;
+    margin-left: 2vw;
   }
 
   .contact {
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     margin-top: 1vh;
+    margin-right: 2vw;
   }
 
   .btn {
