@@ -11,7 +11,7 @@ function About() {
                 </BoxContainer>
             </DivContainer>
             <Separator/>
-            <DivContainer class="wrapper">
+            <DivContainer class="wrapper vertical"> {/* ajoute la classe "vertical" */}
                 <BoxContainer>
                     <h2 class="description">Simuler</h2>
                 </BoxContainer>
