@@ -44,10 +44,12 @@ export const Logo = styled.img  `
 `
 
 export const Separator = styled.div `
-    border-top: 1px solid #EFEFEF;
+    border-bottom: 1px solid #EFEFEF;
     width: 20vw;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 7vh;
+    margin-top: 2vh;
 `
 
 export const DivContainer = styled.div `
