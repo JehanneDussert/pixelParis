@@ -57,7 +57,7 @@
   padding-bottom: 4vh;
   font-size: 1vw;
   margin: 0vh 10vw 0vh 10vw;
-  /* border: 1px solid var(--text-color); */
+  text-align: justify;
 }
 
 .description {
@@ -196,6 +196,7 @@ html {
   .subtitle {
     font-size: 3vw;
     margin: 0vh 10vw 0vh 10vw;
+    text-align: justify;
   }
 
   .description {
@@ -215,6 +216,7 @@ html {
   .subtitle {
     font-size: 1em;
     margin: 0vh 10vw 0vh 10vw;
+    text-align: justify;
     }
     
   .description {
