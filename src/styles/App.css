@@ -56,8 +56,8 @@
   text-align: center;
   padding-bottom: 4vh;
   font-size: 1vw;
-  margin: 0vh 10vw 0vh 10vw;
-  /* border: 1px solid var(--text-color); */
+  margin: 0vh 12vw 0vh 12vw;
+  text-align: justify;
 }
 
 .description {
@@ -165,10 +165,6 @@ html {
 }
 
 @media screen and (max-width: 768px) {
-  .wrapper {
-    flex-direction: column;
-  }
-
   .navbar {
     flex-direction: column;
     font-size: 2.5vw;
@@ -199,7 +195,8 @@ html {
 
   .subtitle {
     font-size: 3vw;
-    margin: 0vh 10vw 0vh 10vw;
+    margin: 0vh 12vw 0vh 12vw;
+    text-align: justify;
   }
 
   .description {
@@ -210,18 +207,6 @@ html {
   .separator {
     width: 50vw;
   }
-
-  .vertical {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .description {
-    width: 80vw;
-    font-size: 5vw;
-    margin: 3vh auto;
-  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -230,7 +215,8 @@ html {
   }
   .subtitle {
     font-size: 1em;
-    margin: 0vh 10vw 0vh 10vw;
+    margin: 0vh 12vw 0vh 12vw;
+    text-align: justify;
     }
     
   .description {
