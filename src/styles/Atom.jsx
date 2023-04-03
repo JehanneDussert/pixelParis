@@ -16,7 +16,6 @@ export const BoxContainer = styled.div  `
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid var(--text-color);
 `
 
 export const Logo = styled.img  `

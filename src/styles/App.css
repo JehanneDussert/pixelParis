@@ -14,29 +14,13 @@
 }
 
 .profile {
-  /* background-image: url("../assets/building.jpg"); */
-  /* min-width: 100%;
-  min-height: 100%; */
   display: flex;
   flex-wrap: wrap;
-  /* border: 1px solid white; */
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
   align-items: center;
-}
-
-.Jehanne {
-  /* background-image: url("../assets/Jehanne.jpg"); */
-  min-width: 100%;
-  min-height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  /* border: 1px solid white; */
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .wrapper {
@@ -54,7 +38,6 @@
     text-align: center;
     margin: 0vw 5vw 0vw 5vw;
     padding: 1vw 3vw 1vw 3vw;
-    /* margin-top: 40vh; */
     justify-content: center;
     align-items: center;
 }
@@ -78,7 +61,6 @@
 .description {
   width: 30vw;
   font-size: 2vw;
-  border: 1px solid var(--text-color);
   text-align: center;
   margin: auto;
 }
@@ -205,10 +187,22 @@ html {
     height: 50vh;
   }
 
-  /* .btn {
-    font-size: 1.5rem;
-    padding: 1rem 2rem;
-  } */
+  .title {
+    font-size: 6vw;
+  }
+
+  .subtitle {
+    font-size: 3vw;
+  }
+
+  .description {
+    width: 70vw;
+    font-size: 5vw;
+  }
+
+  .separator {
+    width: 50vw;
+  }
 }
 
 @media only screen and (max-width: 600px) {
