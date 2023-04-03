@@ -19,25 +19,25 @@ export const BoxContainer = styled.div  `
     // border: 1px solid #EFEFEF;
 `
 
-export const NavBar = styled.div  `
-    display: flex;
-    position: sticky;
-    flex-direction: row;
-    color: #EFEFEF;
-    font-size: 3vw;
-    font-family: Copperplate, Copperplate Gothic Light, fantasy;
-    top: 3vh;
-`
+// export const NavBar = styled.div  `
+//     display: flex;
+//     position: sticky;
+//     flex-direction: row;
+//     color: #EFEFEF;
+//     font-size: 3vw;
+//     font-family: Copperplate, Copperplate Gothic Light, fantasy;
+//     top: 3vh;
+// `
 
-export const Contact = styled.a  `
-    display: flex;
-    position: sticky;
-    margin-left: auto;
-    margin-right: 4vw;
-    text-decoration: none;
-    color: inherit;
-    font-size: 2vw;
-`
+// export const Contact = styled.a  `
+//     display: flex;
+//     position: sticky;
+//     margin-left: auto;
+//     margin-right: 4vw;
+//     text-decoration: none;
+//     color: inherit;
+//     font-size: 2vw;
+// `
 
 export const Logo = styled.img  `
     width: 2vw;
