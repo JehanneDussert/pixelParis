@@ -56,7 +56,7 @@
   text-align: center;
   padding-bottom: 4vh;
   font-size: 1vw;
-  margin: 0vh 10vw 0vh 10vw;
+  margin: 0vh 12vw 0vh 12vw;
   text-align: justify;
 }
 
@@ -195,7 +195,7 @@ html {
 
   .subtitle {
     font-size: 3vw;
-    margin: 0vh 10vw 0vh 10vw;
+    margin: 0vh 12vw 0vh 12vw;
     text-align: justify;
   }
 
@@ -215,7 +215,7 @@ html {
   }
   .subtitle {
     font-size: 1em;
-    margin: 0vh 10vw 0vh 10vw;
+    margin: 0vh 12vw 0vh 12vw;
     text-align: justify;
     }
     
