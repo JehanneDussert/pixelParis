@@ -56,8 +56,8 @@
   text-align: center;
   padding-bottom: 4vh;
   font-size: 1vw;
-  margin: 0vh 12vw 0vh 12vw;
-  text-align: justify;
+  margin: 0vh 10vw 0vh 10vw;
+  /* border: 1px solid var(--text-color); */
 }
 
 .description {
@@ -198,9 +198,8 @@ html {
   }
 
   .subtitle {
-    font-size: 2.5vw;
-    margin: 0vh 12vw 0vh 12vw;
-    text-align: justify;
+    font-size: 3vw;
+    margin: 0vh 10vw 0vh 10vw;
   }
 
   .description {
@@ -231,8 +230,7 @@ html {
   }
   .subtitle {
     font-size: 1em;
-    margin: 0vh 12vw 0vh 12vw;
-    text-align: justify;
+    margin: 0vh 10vw 0vh 10vw;
     }
     
   .description {
