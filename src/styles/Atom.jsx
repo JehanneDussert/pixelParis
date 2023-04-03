@@ -16,28 +16,8 @@ export const BoxContainer = styled.div  `
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    // border: 1px solid #EFEFEF;
+    border: 1px solid var(--text-color);
 `
-
-// export const NavBar = styled.div  `
-//     display: flex;
-//     position: sticky;
-//     flex-direction: row;
-//     color: #EFEFEF;
-//     font-size: 3vw;
-//     font-family: Copperplate, Copperplate Gothic Light, fantasy;
-//     top: 3vh;
-// `
-
-// export const Contact = styled.a  `
-//     display: flex;
-//     position: sticky;
-//     margin-left: auto;
-//     margin-right: 4vw;
-//     text-decoration: none;
-//     color: inherit;
-//     font-size: 2vw;
-// `
 
 export const Logo = styled.img  `
     width: 2vw;
@@ -54,14 +34,12 @@ export const Separator = styled.div `
 
 export const DivContainer = styled.div `
     display: flex;
-    // flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
     height: 100%;
     color: #EFEFEF;
     font-family: Copperplate, Copperplate Gothic Light, fantasy;
     justify-content: center;
-    // border: 1px solid #EFEFEF;
 `
 
 export const DivPage = styled.div `
@@ -71,5 +49,4 @@ export const DivPage = styled.div `
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    // border: 1px solid #EFEFEF;
 `

@@ -79,6 +79,7 @@
   width: 30vw;
   text-align: center;
   font-size: 2vw;
+  border: 1px solid var(--text-color);
 }
 
 .separator {
