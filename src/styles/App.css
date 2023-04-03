@@ -77,9 +77,10 @@
 
 .description {
   width: 30vw;
-  text-align: center;
   font-size: 2vw;
   border: 1px solid var(--text-color);
+  text-align: center;
+  margin: auto;
 }
 
 .separator {
@@ -222,6 +223,7 @@ html {
     width: 80%;
     font-size: 1.5em;
     text-align: center;
+    margin: auto;
   }
 
   .wrapper {
