@@ -7,6 +7,12 @@
   pointer-events: none;
 }
 
+:root {
+  --bg-color: rgb(2, 6, 10);
+  --text-color: #EFEFEF;
+  --font-family: Copperplate, Copperplate Gothic Light, fantasy;
+}
+
 .profile {
   /* background-image: url("../assets/building.jpg"); */
   /* min-width: 100%;
@@ -34,13 +40,12 @@
 }
 
 .wrapper {
-  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+  font-family: var(--font-family);
   display: flex;
   flex-wrap: wrap;
-  color: white;
+  color: var(--text-color);
   justify-content: center;
   align-items: center;
-
 }
 
 @media screen and (max-width: 768px) {
@@ -64,10 +69,9 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  padding: 0vw 10vh 0vw 10vh;
+  padding: 0 10vh;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid white; */
   font-size: 3vw;
 }
 
@@ -75,14 +79,18 @@
   text-align: center;
   padding-bottom: 4vh;
   font-size: 1vw;
-  /* border: 1px solid white; */
 }
 
 .description {
-  /* padding: 10vh 0vw 5vh 0vw; */
   width: 30vw;
   text-align: center;
   font-size: 2vw;
+}
+
+.separator {
+  border-bottom: 1px solid var(--text-color);
+  width: 20vw;
+  margin: 2vh auto 7vh auto;
 }
 
 .btn:hover {
@@ -147,10 +155,5 @@ html {
 }
 
 #team, #about {
-  /* filter: brightness(80%);
-  background-image: url("../assets/background.jpg");
-  width: 100%; */
-  /* background-size: contain;
-  background-repeat: no-repeat; */
-  background-color: rgb(2, 6, 10);
+  background-color: var(--bg-color);
 }

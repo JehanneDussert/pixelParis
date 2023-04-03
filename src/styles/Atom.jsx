@@ -2,12 +2,12 @@ import styled from 'styled-components'
 
 export const LinkPage = styled.a `
     text-decoration: none;
-    color: inherit;
+    color: white;
 `
 
 export const HomeLink = styled.a `
     text-decoration: none;
-    color: inherit;
+    color: white;
     margin-left: 4vw;
 `
 

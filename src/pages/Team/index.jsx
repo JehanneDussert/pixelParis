@@ -3,26 +3,37 @@ import { DivContainer, BoxContainer, DivPage, Separator } from "../../styles/Ato
 import Image from "../../assets/building.jpg"
 
 function Team() {
+    const team = [
+      { name: "Nobila Traore", role: "Développeur C++ | Unreal Engine 5" },
+      { name: "Jehanne Dussert", role: "Développeuse C++ | Unreal Engine 5" },
+    ];
+  
+    const Title = ({ children }) => (
+      <h1 className="title">{children}</h1>
+    );
+    
+    const Subtitle = ({ children }) => (
+      <p className="subtitle">{children}</p>
+    );
+  
     return (
-        <DivPage id="team">
-            <DivContainer class="wrapper">
-                <BoxContainer>
-                        <h1 class="title">L'équipe</h1>
-                </BoxContainer>
-            </DivContainer>
-            <Separator/>
-            <DivContainer class="wrapper">
-                <BoxContainer>
-                    <h2 class="description">Nobila Traore</h2>
-                    <p class="subtitle"> Développeur C++ | Unreal Engine 5</p>
-                </BoxContainer>
-                <BoxContainer>
-                    <h2 class="description">Jehanne Dussert</h2>
-                    <p class="subtitle"> Développeuse C++ | Unreal Engine 5</p>
-                </BoxContainer>
-            </DivContainer>
-        </DivPage>
-    )
-}
+      <DivPage id="team">
+        <DivContainer className="wrapper">
+          <BoxContainer>
+            <Title>L'équipe</Title>
+          </BoxContainer>
+        </DivContainer>
+        <Separator />
+        <DivContainer className="wrapper">
+          {team.map((person) => (
+            <BoxContainer key={person.name}>
+              <h2 className="description">{person.name}</h2>
+              <Subtitle>{person.role}</Subtitle>
+            </BoxContainer>
+          ))}
+        </DivContainer>
+      </DivPage>
+    );
+  }
   
 export default Team
