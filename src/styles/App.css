@@ -191,24 +191,24 @@ html {
   }
 
   .contact {
-    margin-left: 0;
+    /* margin-left: 0; */
     margin-right: 0;
     margin-top: 2vh;
   }
 
-  /* .btn {
+  .btn {
     margin: 0 auto;
     padding: 0.5vh 2vw;
-  } */
+  }
 
   #background-video {
     height: 50vh;
   }
 
-  .btn {
+  /* .btn {
     font-size: 1.5rem;
     padding: 1rem 2rem;
-  }
+  } */
 }
 
 @media only screen and (max-width: 600px) {
