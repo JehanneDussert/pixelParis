@@ -18,13 +18,9 @@ export const BoxContainer = styled.div  `
     flex-direction: column;
     justify-content: center;
         @media screen and (max-width: 768px) {
-            padding: 10px;
-
-    overflow-x: hidden;
-    overflow-y: hidden;
+            flex-direction: column;
+            align-items: center;
     }
-    overflow-x: hidden;
-    overflow-y: hidden;
 
 `
 
