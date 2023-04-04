@@ -17,11 +17,6 @@ export const BoxContainer = styled.div  `
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-        @media screen and (max-width: 768px) {
-            flex-direction: column;
-            align-items: center;
-    }
-
 `
 
 export const Photo = styled.img`
