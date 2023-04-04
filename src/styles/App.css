@@ -303,3 +303,11 @@ html {
     z-index: -1;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .keywords {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}

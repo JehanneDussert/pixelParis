@@ -12,14 +12,14 @@ function About() {
                 </BoxContainer>
             </DivContainer>
             <Separator/>
-            <DivContainer  className="wrapper">
-                <BoxContainer>
+            <DivContainer className="wrapper">
+                <BoxContainer className="keywords">
                     <h2 class="description">Simuler</h2>
                 </BoxContainer>
-                <BoxContainer>
+                <BoxContainer className="keywords">
                     <h2 class="description">Visualiser</h2>
                 </BoxContainer>
-                <BoxContainer>
+                <BoxContainer className="keywords">
                     <h2 class="description">Créer</h2>
                 </BoxContainer>
             </DivContainer>
