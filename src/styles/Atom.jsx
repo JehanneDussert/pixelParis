@@ -50,6 +50,12 @@ export const DivContainer = styled.div `
     flex-direction: row;
     font-family: Copperplate, Copperplate Gothic Light, fantasy;
     justify-content: center;
+    @media only screen and (max-width: 576px) {
+        .project {
+        padding: 0;
+            text-align: center;
+        }
+    }
     
 `
 
@@ -72,11 +78,10 @@ export const HomeButton = styled.a`
         background-color: #99999922;
         transition-duration: 1s;
     }
-
     border-radius: 5px;
     text-align: center;
     margin: 0vw 5vw;
-    padding: 1vw 3vw;
+    padding: 1vw 4vw;
     justify-content: center;
     align-items: center;
     cursor: pointer;
