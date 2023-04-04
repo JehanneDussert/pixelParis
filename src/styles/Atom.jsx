@@ -19,7 +19,12 @@ export const BoxContainer = styled.div  `
     justify-content: center;
         @media screen and (max-width: 768px) {
             padding: 10px;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
     }
+    overflow-x: hidden;
+    overflow-y: hidden;
 
 `
 
@@ -54,8 +59,6 @@ export const DivContainer = styled.div `
     flex-direction: row;
     font-family: Copperplate, Copperplate Gothic Light, fantasy;
     justify-content: center;
-    @media screen and (max-width: 768px) {
-    }
     
 `
 
