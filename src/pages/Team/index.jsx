@@ -15,7 +15,7 @@ function Team() {
     );
     
     const Subtitle = ({ children }) => (
-      <p className="subtitle">{children}</p>
+      <p className="role">{children}</p>
     );
   
     return (
