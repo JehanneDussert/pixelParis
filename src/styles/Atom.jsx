@@ -48,7 +48,8 @@ export const DivContainer = styled.div `
     color: #EFEFEF;
     display: flex;
     flex-direction: row;
-    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    font-family: Roboto, sans-serif;
+    // font-family: Copperplate, Copperplate Gothic Light, fantasy;
     justify-content: center;
     }
     

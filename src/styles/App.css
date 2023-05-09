@@ -11,7 +11,8 @@
   --bg-color: rgb(2, 6, 10);
   --nav-color: rgb(2, 6, 10, 0.1);
   --text-color: #EFEFEF;
-  --font-family: Copperplate, Copperplate Gothic Light, fantasy, Arial, Helvetica, sans-serif;;
+  --font-family: Roboto, sans-serif;
+  /* --font-family: Copperplate, Copperplate Gothic Light, fantasy, Arial, Helvetica, sans-serif; */
 }
 
 .profile {

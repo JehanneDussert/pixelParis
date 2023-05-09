@@ -12,7 +12,7 @@ function About() {
                         <p class="subtitle">Plongez dans l'univers de <strong>la ville lumière</strong> comme jamais auparavant.</p>
                 </BoxContainer>
             </DivContainer>
-            <DivContainer className="wrapper">
+            {/* <DivContainer className="wrapper">
                 <BoxContainer className="keywords">
                     <h2 class="description">Simuler</h2>
                 </BoxContainer>
@@ -22,7 +22,7 @@ function About() {
                 <BoxContainer className="keywords">
                     <h2 class="description">Créer</h2>
                 </BoxContainer>
-            </DivContainer>
+            </DivContainer> */}
         </DivPage>
     )
 }
