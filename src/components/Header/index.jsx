@@ -2,9 +2,14 @@ import React from "react";
 
 function Header() {
   return ( 
-    <div class="navbar">
-      <a href="#home" class="homeLink">Pixel Paris</a>
-      <a href="mailto:jehanne-dussert@hotmail.fr" class="contact">Contact</a>
+    <div class="header">
+        <a href="#home" id="logo">Pixel Paris</a>
+        <div class="nav-bar">
+          <a class="nav-item" href="#about">Projet et services</a>
+          <a class="nav-item" href="#demo">Démo</a>
+          <a class="nav-item" href="#team">L'équipe</a>
+          <a class="nav-item" href="#contact">Contact</a>
+        </div>
     </div>
   );
 }

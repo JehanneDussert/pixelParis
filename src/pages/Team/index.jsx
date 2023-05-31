@@ -1,5 +1,5 @@
 import React from 'react';
-import { DivContainer, BoxContainer, DivPage, Separator, Photo } from "../../styles/Atom";
+// import { DivContainer, BoxContainer, DivPage, Separator, Photo } from "../../styles/Atom";
 // import Image from "../../assets/building.jpg"
 import jehanned from "../../imgs/jehanned.jpg"
 import nobilat from "../../imgs/nobilat.jpg"
@@ -19,25 +19,26 @@ function Team() {
     );
   
     return (
-      <DivPage id="team">
-        <DivContainer className="wrapper">
-          <BoxContainer>
-            <Title>L'équipe</Title>
-          </BoxContainer>
-        </DivContainer>
-        <Separator />
-        <DivContainer className="wrapper">
-          {team.map((person) => (
-            <BoxContainer key={person.name}>
-              <h2 className="description">{person.name}</h2>
-              {person.name === "Nobila Traore" ?
-              <Photo src={nobilat} /> :
-              <Photo src={jehanned} />}
-              <Subtitle>{person.role}</Subtitle>
-            </BoxContainer>
-          ))}
-        </DivContainer>
-      </DivPage>
+      <div></div>
+      // <DivPage id="team">
+      //   <DivContainer className="wrapper">
+      //     <BoxContainer>
+      //       <Title>L'équipe</Title>
+      //     </BoxContainer>
+      //   </DivContainer>
+      //   <Separator />
+      //   <DivContainer className="wrapper">
+      //     {team.map((person) => (
+      //       <BoxContainer key={person.name}>
+      //         <h2 className="description">{person.name}</h2>
+      //         {person.name === "Nobila Traore" ?
+      //         <Photo src={nobilat} /> :
+      //         <Photo src={jehanned} />}
+      //         <Subtitle>{person.role}</Subtitle>
+      //       </BoxContainer>
+      //     ))}
+      //   </DivContainer>
+      // </DivPage>
     );
   }
   

@@ -4,6 +4,7 @@ import Team from "./pages/Team";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Header from "./components/Header";
+import Demo from "./pages/Demo";
 import { BoxContainer } from "./styles/Atom";
 
 document.body.style.backgroundColor = "black";
@@ -14,6 +15,7 @@ function App() {
 			<Header />
 			<Home />
 			<About />
+			<Demo />
 			<Team />
 		</BoxContainer>
 	);
