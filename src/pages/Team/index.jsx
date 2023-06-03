@@ -1,8 +1,9 @@
 import React from 'react';
-import { faHome, faLeaf, faTriangleExclamation } from '@fortawesome/free-solid-svg-icons';
 import Card from '../../components/Card'
 import Jehanne from '../../imgs/jehanne.png'
 import Nobila from '../../imgs/nobila.png'
+import CircleColor from '../../components/CircleColor'
+import CircleArrow from '../../components/CircleArrow';
 
 function Team() {
 
@@ -26,16 +27,19 @@ function Team() {
               <h2 className="team-member card">Nobila <span class="purple-text">Traore</span></h2>
             </div>
             <div class="project">
-            {/* <h2>Jehanne <span class="purple-text">Dussert</span></h2> */}
+              <div class="circle-wrapper card"><CircleColor img={Jehanne}/></div>
+              <div class="circle-wrapper card"><CircleColor img={Nobila}/></div>
+            </div>
+            <div class="project">
             <Card
-              img={Jehanne}
+              className={"padding-bottom"}
               icon={null}
               title="Développeuse & Juriste"
               description= {jehanneDescription}
             >
             </Card>
             <Card
-                img={Nobila}
+                className={"padding-bottom"}
                 icon={null}
                 title="Développeur Senior"
                 description= {nobilaDescription}

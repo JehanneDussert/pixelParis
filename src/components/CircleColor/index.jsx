@@ -1,7 +1,7 @@
 import React from 'react';
 import circleImage from '../../imgs/jehanne.png';
 
-const CircleWithImage = ( {img} ) => {
+const CircleColor = ( {img} ) => {
   return (
     <div className="circle-color">
       <img src={img} alt="Circle" className="circle-image" />
@@ -9,4 +9,4 @@ const CircleWithImage = ( {img} ) => {
   );
 };
 
-export default CircleWithImage;
+export default CircleColor;

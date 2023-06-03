@@ -1,11 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import CircleColor from '../CircleColor'
 
-function Card({ img, icon, title, description }) {
+function Card({ icon, title, description, className }) {
   return (
-    <div className="card">
-      { img !== null ? <CircleColor img={img}/> : <span></span> }
+    <div className={`card ${className}`}>
       <FontAwesomeIcon icon={icon} className="card-icon" />
       <h3 className="card-title">{title}</h3>
       <ul className="card-description">

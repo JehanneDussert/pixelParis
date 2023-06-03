@@ -85,7 +85,6 @@ body {
   height: 100vh;
   width: 100vw;
   text-align: center;
-  /* border: 1px solid #ffffff; */
 }
 
 .home-title {
@@ -157,9 +156,15 @@ body {
   margin-right: 20vw;
   margin-bottom: 10vh;
   align-items: center;
-  /* border: 1px solid #b1b1b1; */
+  /* border: 1px solid #ffffff; */
   height: 100vh;
   width: 100vw;
+}
+
+.circle-wrapper {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid #ffffff; */
 }
 
 .circle {
@@ -197,7 +202,7 @@ body {
 
 .team-member {
   justify-content: space-between; 
-  align-items: center;
+  /* align-items: center; */
   /* border: 1px solid #ffffff; */
 
 }
@@ -209,6 +214,7 @@ body {
   transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
+  /* border: 1px solid #ffffff; */
   object-fit: contain;
 }
 
@@ -216,8 +222,12 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* width: 100vw; */
-  /* border:2px solid #ffffff;  */
+  /* border: 1px solid #ffffff; */
+  margin-bottom: 0vh;
+}
+
+.padding-bottom {
+  margin-bottom: 5vh;
 }
 
 .cell {
@@ -235,7 +245,6 @@ body {
 
 .services-illu {
   height: 45vh;
-  /* padding-left: 7vw; */
 }
 
 .main-title {
@@ -243,7 +252,6 @@ body {
   font-size: 3.5vw;
   margin-top: 0;
   text-align : justify;
-  /* border: 1px solid #ffffff; */
 }
 
 .little-title {
@@ -258,7 +266,6 @@ body {
   font-weight: 800;
   font-size: 2.5vw;
   margin-top: 0;
-  /* border: 1px solid #ffffff; */
   text-align : justify;
 }
 
@@ -266,7 +273,6 @@ body {
   font-weight: 800;
   font-size: 2vw;
   margin-top: 15vh;
-  /* border: 1px solid #ffffff; */
   text-align : left;
 }
 
@@ -292,8 +298,8 @@ body {
 
 .card {
   width: 25vw;
-  /* border: 1px solid #ffffff; */
   padding: 0 5vh 0 5vh;
+  position: relative;
 }
 
 .card-icon {
@@ -319,13 +325,11 @@ body {
   object-fit: cover;
 }
 
-/* idk */
-
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 html {
   scroll-behavior: smooth;
@@ -333,7 +337,7 @@ html {
   text-decoration: none;
 }
 
-.scroller {
+/* .scroller {
   height: 300px;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
@@ -341,20 +345,4 @@ html {
 
 .scroller section {
   scroll-snap-align: start;
-}
-
-.homeLink {
-  text-decoration: none;
-  color: white;
-  margin-left: 4vw;
-}
-
-.contact {
-  /* text-decoration: none;
-  color: white;
-  margin-left: auto;
-  margin-right: 4vw;
-  margin-top: 1vh;
-  text-decoration: none;
-  font-size: 2vw; */
-}
+} */
