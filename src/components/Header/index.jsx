@@ -8,7 +8,7 @@ function Header() {
           <a class="nav-item" href="#about">Projet et services</a>
           <a class="nav-item" href="#demo">Démo</a>
           <a class="nav-item" href="#team">L'équipe</a>
-          <a class="nav-item" href="mailto:jehanne-dussert@hotmail.fr">Contact</a>
+          <a class="nav-item" href="mailto:jehanne-dussert@hotmail.fr, nobila.tr@gmail.com">Contact</a>
         </div>
     </div>
   );
