@@ -1,5 +1,6 @@
 import React from 'react';
 import illustration from "../../imgs/about.jpg"
+import CircleArrow from '../../components/CircleArrow';
 
 function About() {
     return (
@@ -16,6 +17,9 @@ function About() {
                         d'ouverture des Jeux Olympiques de Paris 2024.</p>
                 </div>
             </div>
+            <CircleArrow
+                redirection={"#services"}
+            />
         </div>
     )
 }
