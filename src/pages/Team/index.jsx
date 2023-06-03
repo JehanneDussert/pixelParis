@@ -1,44 +1,51 @@
 import React from 'react';
-import { DivContainer, BoxContainer, DivPage, Separator, Photo } from "../../styles/Atom";
-// import Image from "../../assets/building.jpg"
-import jehanned from "../../imgs/jehanned.jpg"
-import nobilat from "../../imgs/nobilat.jpg"
+import Card from '../../components/Card'
+import Jehanne from '../../imgs/jehanne.png'
+import Nobila from '../../imgs/nobila.png'
+import CircleColor from '../../components/CircleColor'
+import CircleArrow from '../../components/CircleArrow';
 
 function Team() {
-    const team = [
-      { name: "Nobila Traore", role: "Développeur C++ | Unreal Engine 5"},
-      { name: "Jehanne Dussert", role: "Développeuse C++ | Unreal Engine 5"},
-    ];
-  
-    const Title = ({ children }) => (
-      <h1 className="title">{children}</h1>
-    );
+
+    const jehanneDescription = [ 
+        "Expériences multiples dans le service public (Ministère de la Justice, Ministère de l'Intérieur)",
+        "Egalement juriste en droit des nouvelles technologies et IA"
+    ]
+
+    const nobilaDescription = [ 
+        "Passionné d'infographie",
+        "8 ans d'expérience",
+        "Freelance en développement de jeux, d'applications et d'environnements 3D immersifs"
+    ]
     
-    const Subtitle = ({ children }) => (
-      <p className="role">{children}</p>
-    );
-  
     return (
-      <DivPage id="team">
-        <DivContainer className="wrapper">
-          <BoxContainer>
-            <Title>L'équipe</Title>
-          </BoxContainer>
-        </DivContainer>
-        <Separator />
-        <DivContainer className="wrapper">
-          {team.map((person) => (
-            <BoxContainer key={person.name}>
-              <h2 className="description">{person.name}</h2>
-              {person.name === "Nobila Traore" ?
-              <Photo src={nobilat} /> :
-              <Photo src={jehanned} />}
-              <Subtitle>{person.role}</Subtitle>
-            </BoxContainer>
-          ))}
-        </DivContainer>
-      </DivPage>
-    );
-  }
+        <div className="container" id="team">
+            <h1 class="main-title">L'équipe</h1>
+            <div class="project">
+              <h2 className="team-member card team-page">Jehanne <span class="purple-text">Dussert</span></h2>
+              <h2 className="team-member card team-page">Nobila <span class="purple-text">Traore</span></h2>
+            </div>
+            <div class="project">
+              <div class="circle-wrapper card team-page"><CircleColor img={Jehanne}/></div>
+              <div class="circle-wrapper card team-page"><CircleColor img={Nobila}/></div>
+            </div>
+            <div class="project">
+            <Card
+              className="team-page"
+              title="Développeuse & Juriste"
+              subtitle={"C++ | UE 5 | Droit des NTIC"}
+              description={jehanneDescription}
+            >
+            </Card>
+            <Card
+                className="team-page"
+                title="Développeur Senior"
+                subtitle={"C++ | UE 5"}
+                description={nobilaDescription}
+            />
+            </div>
+        </div>
+    )
+}
   
 export default Team

@@ -1,29 +1,26 @@
 import React from 'react';
-import { DivContainer, BoxContainer, DivPage, Separator } from "../../styles/Atom";
+import illustration from "../../imgs/about.jpg"
+import CircleArrow from '../../components/CircleArrow';
 
 function About() {
     return (
-        <DivPage id="about">
-            <DivContainer>
-                <BoxContainer>
-                        <h1 className="project">Le projet</h1>
-                        <Separator/>
-                        <p class="subtitle"> Découvrez <strong>Pixel Paris</strong>, un programme 3D développé sur Unreal Engine 5 permettant une <strong>visualisation de la ville de Paris</strong> et la <strong>simulation d'événements</strong> tels que la cérémonie d'ouverture des Jeux Olympiques de Paris 2024.</p>
-                        <p class="subtitle">Plongez dans l'univers de <strong>la ville lumière</strong> comme jamais auparavant.</p>
-                </BoxContainer>
-            </DivContainer>
-            {/* <DivContainer className="wrapper">
-                <BoxContainer className="keywords">
-                    <h2 class="description">Simuler</h2>
-                </BoxContainer>
-                <BoxContainer className="keywords">
-                    <h2 class="description">Visualiser</h2>
-                </BoxContainer>
-                <BoxContainer className="keywords">
-                    <h2 class="description">Créer</h2>
-                </BoxContainer>
-            </DivContainer> */}
-        </DivPage>
+        <div className="container" id="about">
+            <h3 class="little-title">Découvrez Pixel Paris</h3>
+            <h1 class="main-title">Le projet</h1>
+            <div class="project">
+                <div class="cell">
+                    <img class= "illustration" src={illustration}/>
+                </div>
+                <div class="cell">
+                    <h1 class="title">Pixel Paris, votre solution en matière de <span class="purple-text">visualisation</span> et de <span class="purple-text">simulation</span></h1>
+                    <p class="description">Pixel Paris est un programme 3D développé sur Unreal Engine 5 permettant une visualisation de la ville de Paris et la simulation d'événements tels que la cérémonie 
+                        d'ouverture des Jeux Olympiques de Paris 2024.</p>
+                </div>
+            </div>
+            <CircleArrow
+                redirection={"#services"}
+            />
+        </div>
     )
 }
   
