@@ -201,6 +201,8 @@ body {
 }
 
 .team-member {
+  font-weight: 900;
+  font-size: 4.5vh;
   justify-content: space-between; 
   /* align-items: center; */
   /* border: 1px solid #ffffff; */
@@ -227,7 +229,7 @@ body {
 }
 
 .padding-bottom {
-  margin-bottom: 5vh;
+  margin-bottom: 7vh;
 }
 
 .cell {
@@ -251,6 +253,7 @@ body {
   font-weight: 900;
   font-size: 3.5vw;
   margin-top: 0;
+  /* margin: 0; */
   text-align : justify;
 }
 
@@ -300,6 +303,7 @@ body {
   width: 25vw;
   padding: 0 5vh 0 5vh;
   position: relative;
+  /* border: 1px solid #ffffff; */
 }
 
 .card-icon {
@@ -310,10 +314,27 @@ body {
 .card-title {
   font-weight: 800;
   font-size: 4vh;
+  margin: 0;
+  padding-top: 3vh;
+  /* border: 1px solid #ffffff; */
+}
+
+.card-subtitle {
+  font-size: 2.5vh;
+  font-weight: 200;
+  margin: 0;
+  color: #b1b1b1;
+  /* border: 1px solid #ffffff; */
 }
 
 .card-description {
   text-align : justify;
+  color: #b1b1b1;
+}
+
+.team-page {
+  /* border: 1px solid #ffffff; */
+  padding: 0 6vw 0 6vw;
 }
 
 /* demo */
