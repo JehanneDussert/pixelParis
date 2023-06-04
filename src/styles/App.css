@@ -194,18 +194,14 @@ body {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background: linear-gradient(to bottom, #eacbf7, #752796);
+  background: linear-gradient(to bottom, #5920f8, #201e1e);
   overflow: hidden;
-  /* border: 1px solid #ffffff; */
-  /* padding: 5vh; */
 }
 
 .team-member {
   font-weight: 900;
   font-size: 4.5vh;
-  justify-content: space-between; 
-  /* align-items: center; */
-  /* border: 1px solid #ffffff; */
+  justify-content: space-between;
 
 }
 
@@ -285,7 +281,7 @@ body {
 }
 
 .purple-text {
-  color: #7774E9;
+  color: #6561d6;
 }
 
 .description {
@@ -350,14 +346,7 @@ body {
 .grid-illustrations {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
 }
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
 
 html {
   scroll-behavior: smooth;

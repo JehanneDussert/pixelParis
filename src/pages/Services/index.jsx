@@ -24,7 +24,7 @@ function Services() {
     
     return (
         <div className="container" id="services">
-            <h2 class="question-title left-text">Vous êtes une <span class="purple-text">collectivité</span>, un <span class="purple-text">agent public</span>, une <span class="purple-text">entreprise</span> ?</h2>
+            <h2 class="question-title left-text">Vous êtes une <span class="purple-text">collectivité</span>, un <span class="purple-text">établissement public</span>, une <span class="purple-text">entreprise</span> ?</h2>
             <h1 class="main-title left-text">Nos services</h1>
             <div class="project">
             <Card
