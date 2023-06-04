@@ -396,15 +396,15 @@ html {
   }
   
   #about {
-    margin-bottom: 30vh; 
+    margin-bottom: 20vh; 
   }
   
   #services {
-    margin-bottom: 130vh; 
+    margin-bottom: 120vh; 
   }
   
   #demo {
-    margin-bottom: 95vh; 
+    margin-bottom: 80vh; 
   }
 
   #logo {
@@ -417,11 +417,11 @@ html {
 
   .little-title {
     font-size: 3.5vw;
-    margin-top: 30vh;
+    margin-top: 25vh;
   }
 
   .main-title {
-    font-size: 7vw;
+    font-size: 9vw;
   }
 
   .project {
