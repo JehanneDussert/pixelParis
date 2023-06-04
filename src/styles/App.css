@@ -248,7 +248,6 @@ body {
   font-weight: 900;
   font-size: 3.5vw;
   margin-top: 0;
-  /* margin: 0; */
   text-align : justify;
 }
 
@@ -397,15 +396,15 @@ html {
   }
   
   #about {
-    margin-bottom: 40vh; 
+    margin-bottom: 30vh; 
   }
   
   #services {
-    margin-bottom: 120vh; 
+    margin-bottom: 130vh; 
   }
   
   #demo {
-    margin-bottom: 90vh; 
+    margin-bottom: 95vh; 
   }
 
   #logo {
@@ -418,8 +417,7 @@ html {
 
   .little-title {
     font-size: 3.5vw;
-    margin-top: 5vh;
-    margin-top: 60vh;
+    margin-top: 30vh;
   }
 
   .main-title {
