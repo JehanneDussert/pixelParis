@@ -331,6 +331,7 @@ body {
 .team-page {
   /* border: 1px solid #ffffff; */
   padding: 0 6vw 0 6vw;
+  /* border: 1px solid #ffffff; */
 }
 
 /* demo */
@@ -354,6 +355,19 @@ html {
   text-decoration: none;
 }
 
+.team-member-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* border: 1px solid #ffffff; */
+}
+
+.team-member-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* .scroller {
   height: 300px;
   overflow-y: scroll;
@@ -363,3 +377,143 @@ html {
 .scroller section {
   scroll-snap-align: start;
 } */
+
+@media (max-width: 767px) {
+  .circle-container {
+    display: none;
+  }
+
+  .subtitle {
+    font-size: 5vw;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    text-align: center;
+  }
+  
+  #about {
+    margin-bottom: 40vh; 
+  }
+  
+  #services {
+    margin-bottom: 120vh; 
+  }
+  
+  #demo {
+    margin-bottom: 90vh; 
+  }
+
+  #logo {
+    font-size: 4vw;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .little-title {
+    font-size: 3.5vw;
+    margin-top: 5vh;
+    margin-top: 60vh;
+  }
+
+  .main-title {
+    font-size: 7vw;
+  }
+
+  .project {
+    flex-direction: column;
+  }
+
+  .illustration {
+    max-width: 70vw;
+    height: auto;
+    /* margin-top: 10vh; */
+  }
+
+  .title {
+    font-size: 5vw;
+    padding: 2vh 0;
+  }
+
+  .description {
+    font-size: 4.5vw;
+  }
+
+  /*services*/
+  .question-title {
+    font-size: 5vw;
+    padding-top: 60vh;
+  }
+  
+  .card {
+    width: 90vw;
+    padding-top: 3vh;
+    /* border: 1px solid #ffffff; */
+  }
+
+  .center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .main-title {
+    margin-top: 3vh;
+  }
+
+  .card-title {
+    padding: 0vh;
+    margin-top: 0;
+    /* border: 1px solid #ffffff; */
+  }
+
+  .card-description {
+    padding-bottom: 2vh;
+  }
+
+  
+.demo-illustration {
+  height: 30vh;
+  width: 70vw;
+  padding: 1vw 6vh 1vw 6vh;
+}
+
+.grid-illustrations {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.team-member-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-member-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-member {
+  font-size: 3.5vh; 
+}
+
+.card {
+  width: 80vw; 
+  padding: 3vh 5vw;
+}
+
+.home-title {
+  font-size: 8vw;
+}
+
+}

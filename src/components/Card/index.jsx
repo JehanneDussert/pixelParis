@@ -5,6 +5,7 @@ function Card({ icon, title, subtitle, description, className }) {
   return (
     <div className={`card ${className}`}>
       <FontAwesomeIcon icon={icon} className="card-icon" />
+      <div className="center-content">
       <h3 className="card-title">{title}</h3>
       <h4 className="card-subtitle">{subtitle}</h4>
       <ul className="card-description">
@@ -12,6 +13,7 @@ function Card({ icon, title, subtitle, description, className }) {
           <li key={index}>{item}</li>
         ))}
       </ul>
+      </div>
     </div>
   );
 }

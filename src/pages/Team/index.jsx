@@ -19,33 +19,32 @@ function Team() {
     ]
     
     return (
-        <div className="container" id="team">
-            <h1 class="main-title">L'équipe</h1>
-            <div class="project">
-              <h2 className="team-member card team-page">Jehanne <span class="purple-text">Dussert</span></h2>
-              <h2 className="team-member card team-page">Nobila <span class="purple-text">Traore</span></h2>
-            </div>
-            <div class="project">
-              <div class="circle-wrapper card team-page"><CircleColor img={Jehanne}/></div>
-              <div class="circle-wrapper card team-page"><CircleColor img={Nobila}/></div>
-            </div>
-            <div class="project">
-            <Card
-              className="team-page"
-              title="Développeuse & Juriste"
-              subtitle={"C++ | UE 5 | Droit des NTIC"}
-              description={jehanneDescription}
-            >
-            </Card>
-            <Card
-                className="team-page"
-                title="Développeur Senior"
-                subtitle={"C++ | UE 5"}
-                description={nobilaDescription}
-            />
-            </div>
+    <div className="container" id="team">
+      <h1 className="main-title">L'équipe</h1>
+      <div className="team-member-container">
+        <div className="team-member-card">
+          <h2 className="team-member">Jehanne <span className="purple-text">Dussert</span></h2>
+          <CircleColor img={Jehanne} />
+          <Card
+            className="team-page"
+            title="Développeuse & Juriste"
+            subtitle="C++ | UE 5 | Droit des NTIC"
+            description={jehanneDescription}
+          />
         </div>
-    )
+        <div className="team-member-card">
+          <h2 className="team-member">Nobila <span className="purple-text">Traore</span></h2>
+          <CircleColor img={Nobila} />
+          <Card
+            className="team-page"
+            title="Développeur Senior"
+            subtitle="C++ | UE 5"
+            description={nobilaDescription}
+          />
+        </div>
+      </div>
+    </div>
+  );
 }
   
 export default Team
