@@ -394,17 +394,21 @@ html {
     width: 100vw;
     text-align: center;
   }
+
+  #home {
+    margin-bottom: 10vh;
+  }
   
   #about {
-    margin-bottom: 20vh; 
+    margin-bottom: 10vh; 
   }
   
   #services {
-    margin-bottom: 120vh; 
+    margin-bottom: 130vh; 
   }
   
   #demo {
-    margin-bottom: 80vh; 
+    margin-bottom: 95vh; 
   }
 
   #logo {
@@ -416,12 +420,11 @@ html {
   }
 
   .little-title {
-    font-size: 3.5vw;
-    margin-top: 25vh;
+    display: none;
   }
 
   .main-title {
-    font-size: 9vw;
+    font-size: 7vw;
   }
 
   .project {
@@ -435,12 +438,13 @@ html {
   }
 
   .title {
-    font-size: 5vw;
-    padding: 2vh 0;
+    font-size: 4.5vw;
+    padding: 2vh;
   }
 
   .description {
     font-size: 4.5vw;
+    padding: 2vh;
   }
 
   /*services*/
