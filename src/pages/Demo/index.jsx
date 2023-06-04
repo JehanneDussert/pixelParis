@@ -1,45 +1,37 @@
 import React from 'react';
-import illu1 from "../../imgs/illu1.jpg"
-import illu2 from "../../imgs/illu2.jpg"
-import illu3 from "../../imgs/illu3.jpg"
+import zoneGraphs from "../../imgs/zoneGraphs.gif";
+import droneView from "../../imgs/droneView.gif";
+import streetView from "../../imgs/streetView.gif";
+import streetByDay from "../../imgs/streetByDay.png";
+import streetByNight from "../../imgs/streetByNight.png";
+import busStop from "../../imgs/busStop.png";
 
 function Demo() {
+  const illustrations = [
+    { image: streetByDay, alt: 'Street By Day' },
+    { image: busStop, alt: 'Bus Stop' },
+    { image: streetByNight, alt: 'Street By Night' },
+    { image: zoneGraphs, alt: 'Zone Graphs' },
+    { image: droneView, alt: 'Drone View' },
+    { image: streetView, alt: 'Street View' }
+  ];
 
-    // const illustrations = [{illu1}, {illu2}, {illu3}];
-    const illustrations = [
-        { illu1 },
-        { illu2 },
-        { illu3 }
-      ];
-    return (
-        <div className="container" id="demo">
-            <h1 class="main-title">Démo</h1>
-            <div class="project">
-                {illustrations.map((illustration, index) => {
-                    const key = Object.keys(illustration)[0];
-                    const value = Object.values(illustration)[0];
-
-                    return (
-                    <div key={key}>
-                        <img src={value} class="demo-illustration" alt={`Illustration ${index + 1}`} />
-                    </div>
-                    );
-                })}
-            </div>
-            <div class="project">
-                {illustrations.map((illustration, index) => {
-                    const key = Object.keys(illustration)[0];
-                    const value = Object.values(illustration)[0];
-                    
-                    return (
-                    <div key={key}>
-                        <img src={value} class="demo-illustration" alt={`Illustration ${index + 1}`} />
-                    </div>
-                    );
-                })}
-            </div>
-        </div>
-    )
+  return (
+    <div className="container" id="demo">
+      <h1 className="main-title">Démo</h1>
+      <div className="project grid-illustrations">
+        {illustrations.map((illustration, index) => (
+          <div key={index}>
+            <img
+              src={illustration.image}
+              className="demo-illustration"
+              alt={`Illustration ${index + 1}: ${illustration.alt}`}
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 }
-  
-export default Demo
+
+export default Demo;
