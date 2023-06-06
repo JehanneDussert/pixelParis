@@ -5,6 +5,7 @@ import streetView from "../../imgs/streetView.gif";
 import streetByDay from "../../imgs/streetByDay.png";
 import streetByNight from "../../imgs/streetByNight.png";
 import busStop from "../../imgs/busStop.png";
+import Footer from '../../components/Footer'
 
 function Demo() {
   const illustrations = [
@@ -18,7 +19,7 @@ function Demo() {
 
   return (
     <div className="container" id="demo">
-      <h1 className="main-title">Démo</h1>
+      <h1 className="separator main-title">Démo</h1>
       <div className="project grid-illustrations">
         {illustrations.map((illustration, index) => (
           <div key={index}>
@@ -30,6 +31,7 @@ function Demo() {
           </div>
         ))}
       </div>
+      <Footer />
     </div>
   );
 }

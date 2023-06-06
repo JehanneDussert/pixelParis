@@ -2,6 +2,7 @@ import React from 'react';
 import { faHome, faLeaf, faTriangleExclamation } from '@fortawesome/free-solid-svg-icons';
 import Card from '../../components/Card'
 import CircleArrow from '../../components/CircleArrow';
+import Footer from '../../components/Footer'
 
 function Services() {
 
@@ -49,6 +50,7 @@ function Services() {
             <CircleArrow 
                 redirection={"#demo"}
             />
+            <Footer />
         </div>
     )
 }

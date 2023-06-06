@@ -190,11 +190,12 @@ body {
 
 .circle-color {
   position: relative;
-  width: 200px;
-  height: 200px;
+  overflow: visible;
+  width: 25vh;
+  height: 25vh;
   border-radius: 50%;
   background: linear-gradient(to bottom, #5920f8, #201e1e);
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .team-member {
@@ -205,12 +206,13 @@ body {
 }
 
 .circle-image {
+  border-radius: 40vh;
   position: absolute;
-  top: 50%;
+  top: 39%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;
-  height: 100%;
+  width: 120%;
+  height: 120%;
   /* border: 1px solid #ffffff; */
   object-fit: contain;
 }
@@ -318,6 +320,7 @@ body {
   font-size: 2.5vh;
   font-weight: 200;
   margin: 0;
+  width: 110%;
   color: #b1b1b1;
   /* border: 1px solid #ffffff; */
 }
@@ -335,6 +338,12 @@ body {
 
 /* demo */
 
+.footer {
+  border-top: 1px solid #b1b1b1;
+  display: none;
+  width: 50%;
+  margin-top: 5h;
+}
 
 
 .demo-illustration {
@@ -382,6 +391,11 @@ html {
     display: none;
   }
 
+  .footer {
+    /* display: block; */
+    margin-bottom: 8vh;
+  }
+
   .subtitle {
     font-size: 5vw;
   }
@@ -396,19 +410,19 @@ html {
   }
 
   #home {
-    margin-bottom: 10vh;
+    margin-bottom: 0vh;
   }
   
   #about {
-    margin-bottom: 10vh; 
+    margin-bottom: 0vh;
   }
   
   #services {
-    margin-bottom: 130vh; 
+    margin-bottom: 95vh; 
   }
   
   #demo {
-    margin-bottom: 95vh; 
+    margin-bottom: 75vh; 
   }
 
   #logo {
@@ -424,7 +438,7 @@ html {
   }
 
   .main-title {
-    font-size: 7vw;
+    font-size: 9vw;
   }
 
   .project {
@@ -450,7 +464,7 @@ html {
   /*services*/
   .question-title {
     font-size: 5vw;
-    padding-top: 60vh;
+    padding-top: 25vh;
   }
   
   .card {
@@ -474,7 +488,7 @@ html {
   .card-title {
     padding: 0vh;
     margin-top: 0;
-    /* border: 1px solid #ffffff; */
+    font-size: 2.9vh;
   }
 
   .card-description {
@@ -516,6 +530,10 @@ html {
 
 .home-title {
   font-size: 8vw;
+}
+
+.card-subtitle {
+  font-size: 2vh;
 }
 
 }

@@ -9,7 +9,7 @@ function Team() {
 
     const jehanneDescription = [ 
         "Expériences multiples dans le service public (Ministère de la Justice, Ministère de l'Intérieur)",
-        "Egalement juriste en droit des nouvelles technologies et IA"
+        "Juriste en droit des nouvelles technologies et IA"
     ]
 
     const nobilaDescription = [ 
@@ -28,7 +28,7 @@ function Team() {
           <Card
             className="team-page"
             title="Développeuse & Juriste"
-            subtitle="C++ | UE 5 | Droit des NTIC"
+            subtitle="C++ | Unreal Engine 5 | Droit des NTIC"
             description={jehanneDescription}
           />
         </div>
@@ -38,7 +38,7 @@ function Team() {
           <Card
             className="team-page"
             title="Développeur Senior"
-            subtitle="C++ | UE 5"
+            subtitle="C++ | Unreal Engine 5"
             description={nobilaDescription}
           />
         </div>

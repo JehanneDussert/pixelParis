@@ -1,6 +1,7 @@
 import React from 'react';
 import illustration from "../../imgs/about.jpg";
 import CircleArrow from '../../components/CircleArrow';
+import Footer from '../../components/Footer'
 
 function About() {
   return (
@@ -18,6 +19,7 @@ function About() {
         </div>
       </div>
       <CircleArrow redirection={"#services"} />
+      <Footer />
     </div>
   )
 }
