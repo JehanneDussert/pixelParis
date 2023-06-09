@@ -1,8 +1,11 @@
 import React from 'react';
+import CircleArrow from '../../components/CircleArrow';
 
-const Footer = () => {
+const Footer = ( { redirection } ) => {
   return (
-    <div className="footer"></div>
+    <div className="footer">
+      <CircleArrow redirection={redirection} />
+    </div>
   );
 };
 

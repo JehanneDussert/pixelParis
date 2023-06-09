@@ -1,18 +1,33 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-function Card({ icon, title, subtitle, description, className }) {
+function Card({ icons, title, subtitle, description, className, iconClassName, socialMedia }) {
   return (
     <div className={`card ${className}`}>
-      <FontAwesomeIcon icon={icon} className="card-icon" />
+      <div className="card-icons">
+        {icons && icons.length > 0 && socialMedia ? (
+          icons.map((icon, index) => {
+            const link = socialMedia[index];
+            return (
+              <a href={link} key={index}>
+                <FontAwesomeIcon icon={icon} className={`${iconClassName} ${!link ? 'no-link' : ''}`} />
+              </a>
+            );
+          })
+        ) : (
+          icons.map((icon, index) => (
+            <FontAwesomeIcon icon={icon} className={`${iconClassName} no-link`} key={index} />
+          ))
+        )}
+      </div>
       <div className="center-content">
-      <h3 className="card-title">{title}</h3>
-      <h4 className="card-subtitle">{subtitle}</h4>
-      <ul className="card-description">
-        {description.map((item, index) => (
-          <li key={index}>{item}</li>
-        ))}
-      </ul>
+        <h3 className="card-title">{title}</h3>
+        <h4 className="card-subtitle">{subtitle}</h4>
+        <div className="card-description">
+          {description.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </div>
       </div>
     </div>
   );

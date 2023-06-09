@@ -12,7 +12,7 @@ document.body.style.backgroundColor = "black";
 
 function App() {
 	return (
-		<BoxContainer class="scroller">
+		<BoxContainer className="scroller">
 			<Header />
 			<Home />
 			<About />

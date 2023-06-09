@@ -27,7 +27,7 @@ function Home() {
   }, [subtitleIndex]);
 
   return (
-    <div className="container" id="home">
+    <div className="home-container" id="home">
       <video id="background-video" autoPlay muted loop src="/Videos/Demo.mp4" type="video/mp4" />
       <h1 className="home-title">Pixel Paris</h1>
       <h2 className="subtitle">{currentSubtitle}</h2>

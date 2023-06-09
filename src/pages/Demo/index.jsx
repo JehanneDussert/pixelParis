@@ -31,7 +31,7 @@ function Demo() {
           </div>
         ))}
       </div>
-      <Footer />
+      <Footer redirection={"#team"} />
     </div>
   );
 }
